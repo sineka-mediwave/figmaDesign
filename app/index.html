@@ -2,120 +2,364 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=
-    , initial-scale=1.0"
-    />
-    <title>FigmaReplicate Task4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Messager App</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
-    <div class="body-container">
-      <section class="side-panel">
-        <div class="side-panel-menu">
+    <main>
+      <div class="main-grid">
+        <div class="sidePanel">
           <div class="messager-logo">
-            <img src="assets/icon/messager-icon.png" alt="messager icon" />
+            <img src="assets/icons/messager-icon.png" alt="messages logo" />
           </div>
-          <div class="main-menu">
-            <div class="wrap">
-              <img src="assets/icon/add-home-icon.png" alt="forum-icon" />
-            </div>
-            <div class="wrap">
-              <div class="icon-holder">
-                <img
-                  src="assets/icon/menu-forum-icon.png"
-                  alt="menu-msg-icon"
-                />
-              </div>
-            </div>
-            <div class="wrap">
-              <img
-                src="assets/icon/menu-contact-icon.png"
-                alt="menu-contact-icon"
-              />
-            </div>
-
-            <div class="wrap">
-              <img
-                src="assets/icon/menu-calendar-icon.png"
-                alt="menu-calendar-icon"
-              />
-            </div>
-            <div class="wrap">
-              <img
-                src="assets/icon/menu-settings-icon.png"
-                alt="menu-settings-icon"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-      <header class="main-container-heater">
-        <div class="main-header-wrap">
-          <div class="message-profile">
-            <div class="icon-holder-head">
-              <div class="menu-icon">
-                <img src="assets/icon/menu-icon.png" alt="menu icon" />
-              </div>
-            </div>
-            <h1>Messages</h1>
-          </div>
-          <div class="profile-pic">
-            <div class="profile-search flex-box">
-              <div class="image-pad">
-                <img src="assets/images/profile-1.png" alt="ranbom profile" />
-              </div>
-              <div class="image-pad">
-                <img src="assets/images/profile-2.png" alt="ranbom profile" />
-              </div>
-
-              <div class="image-pad">
-                <img src="assets/images/profile-1.png" alt="ranbom profile" />
-              </div>
-              <div class="image-pad">
-                <div class="icon-holder-head">
-                  <div class="menu-icon"></div>
+          <div class="sidePanel-btnIcon">
+            <div>
+              <div class="sidePanel-pad">
+                <button class="border-none">
                   <img
-                    src="assets/icon/person_add-icon.png"
-                    alt="ranbom profile"
+                    src="assets/icons/add-home-icon.png"
+                    alt="add-home-icon"
                   />
-                </div>
+                </button>
               </div>
-            </div>
-            <div class="flex-box">
-              <div class="image-pad">
-                <div class="icon-holder-head">
-                  <div class="menu-icon"></div>
-                  <img src="assets/icon/search-icon.png" alt="search icon" />
-                </div>
+              <div class="sidePanel-pad">
+                <button class="border-width">
+                  <img
+                    src="assets/icons/menu-forum-icon.png"
+                    alt="menu-forum-icon"
+                  />
+                </button>
               </div>
-
-              <div class="image-pad">
-                <img src="assets/images/profile-3.png" alt="search icon" />
+              <div class="sidePanel-pad">
+                <button class="border-none">
+                  <img
+                    src="assets/icons/menu-contact-icon.png"
+                    alt="menu-contact-icon"
+                  />
+                </button>
+              </div>
+              <div class="sidePanel-pad">
+                <button class="border-none">
+                  <img
+                    src="assets/icons/menu-calendar-icon.png"
+                    alt="menu-calendar-icon"
+                  />
+                </button>
+              </div>
+              <div class="sidePanel-pad">
+                <button class="border-none">
+                  <img
+                    src="assets/icons/menu-settings-icon.png"
+                    alt="menu-settings-icon"
+                  />
+                </button>
               </div>
             </div>
           </div>
         </div>
-      </header>
-      <main class="main-container">
-        <div class="main-container-content">
-          <div class="forum-list">
-            <section class="forum-menu">
-              <div class="forum-list-icon">
-                <img src="assets/icon/folder-icon.png" alt="folder-icon" />
-              </div>
+        <div class="messagePanal">
+          <header class="messagePanel-header">
+            <div class="flex-between">
               <div>
-                <h2>All inbox</h2>
-                <p>All message unifieds</p>
+                <div class="flex-box">
+                  <button>
+                    <img
+                      src="assets/icons/menu-icon.png"
+                      alt="three line menu icon"
+                    />
+                  </button>
+                  <h1>Messages</h1>
+                </div>
               </div>
-            </section>
+              <div class="flex-box">
+                <div class="recent-profile">
+                  <div class="padding-top">
+                    <img src="assets/images/profile-1.png" alt="profile-1" />
+                  </div>
+                  <div class="padding-top">
+                    <img src="assets/images/profile-2.png" alt="profile-2" />
+                  </div>
+                  <div class="flex-box">
+                    <div class="position-relative">
+                      <img
+                        class="padding-top"
+                        src="assets/images/profile-1.png"
+                        alt="profile with count"
+                      />
+                    </div>
+                    <div class="recent-count">
+                      <button class="count">+5</button>
+                    </div>
+                  </div>
+                  <div class="padding-top">
+                    <button>
+                      <img
+                        src="assets/icons/person_add-icon.png"
+                        alt="person_add-icon"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div class="padding-icon">
+                  <button>
+                    <img src="assets/icons/search-icon.png" alt="Search icon" />
+                  </button>
+                </div>
+                <div class="padding-top">
+                  <button class="border-none">
+                    <img src="assets/images/profile-3.png" alt="user profile" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </header>
+          <div class="msgContent-wrapper">
+            <div class="forum-wrap">
+              <div class="forum">
+                <div class="forum-list background">
+                  <div>
+                    <img src="assets/icons/folder-icon.png" alt="folder-icon" />
+                  </div>
+                  <div class="pad-left">
+                    <h2>All Inbox</h2>
+                    <p>All message unified</p>
+                  </div>
+                </div>
+              </div>
+              <div class="forum">
+                <div class="forum-list">
+                  <div>
+                    <img src="assets/icons/star-icon.png" alt="folder-icon" />
+                  </div>
+                  <div class="pad-left">
+                    <h2>Starred</h2>
+                    <p>Select messages</p>
+                  </div>
+                </div>
+              </div>
+              <div class="forum">
+                <div class="forum-list">
+                  <div>
+                    <img src="assets/icons/alarm-icon.png" alt="alarm-icon" />
+                  </div>
+                  <div class="pad-left">
+                    <h2>Snoozed</h2>
+                    <p>Will appear later</p>
+                  </div>
+                </div>
+              </div>
+              <div class="forum">
+                <div class="forum-list">
+                  <div>
+                    <img src="assets/icons/edit-icon.png" alt="edit-icon" />
+                  </div>
+                  <div class="pad-left">
+                    <h2>Drafts</h2>
+                    <p>Re-edit your messages</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="message-wrapper">
+              <div class="chat-box">
+                <section class="user-chat-right">
+                  <div class="pad-right">
+                    <div class="justify-right">
+                      <time>8:20 PM</time>
+                      <h4>Rose Nguyen</h4>
+                    </div>
+                    <div class="user-chat">
+                      <p>Freelance Design Tricks</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/images/profile-3.png" alt="user profile" />
+                  </div>
+                </section>
+                <section class="received-chat-box">
+                  <div class="pad-right">
+                    <div class="position-relative">
+                      <img
+                        src="assets/images/profile-1.png"
+                        alt="user profile"
+                      />
+                      <div class="absolute-circle green"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="flex-box">
+                      <h4>Robert Brewer</h4>
+                      <time>8:25 PM</time>
+                    </div>
+                    <div class="receiver-chat">
+                      <p>
+                        Marketers advertisers usually focus their efforts on the
+                        people
+                      </p>
+                    </div>
+                  </div>
+                </section>
+                <section class="received-chat-box">
+                  <div class="pad-right">
+                    <div class="position-relative">
+                      <img
+                        src="assets/images/profile-2.png"
+                        alt="user profile"
+                      />
+                      <div class="absolute-circle orange"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="flex-box">
+                      <h4>Randall Conner</h4>
+                      <time>8:35 PM</time>
+                    </div>
+                    <div class="receiver-chat">
+                      <p>Some graphic designers always manage to produce</p>
+                    </div>
+                    <div class="flex-box">
+                      <div class="received-image">
+                        <img src="assets/images/image-1.png" alt="image-1" />
+                      </div>
+                      <div class="received-image">
+                        <img src="assets/images/image-2.png" alt="image-2" />
+                      </div>
+                      <div class="received-image">
+                        <img src="assets/images/image-3.png" alt="image-3" />
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="user-chat-right">
+                  <div class="pad-right">
+                    <div class="justify-right">
+                      <time>8:50 PM</time>
+                      <h4>Rose Nguyen</h4>
+                    </div>
+                    <div class="user-chat">
+                      <p>Attending a trade show can be very effective method</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/images/profile-3.png" alt="user profile" />
+                  </div>
+                </section>
+                <section class="received-chat-box">
+                  <div class="pad-right">
+                    <div class="position-relative">
+                      <img
+                        src="assets/images/profile-1.png"
+                        alt="user profile"
+                      />
+                      <div class="absolute-circle orange"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="flex-box">
+                      <h4>Alma Pierce</h4>
+                      <time>8:50 PM</time>
+                    </div>
+                    <div class="receiver-chat">
+                      <p>Advertising on a budget part 3</p>
+                    </div>
+                  </div>
+                </section>
+                <section class="received-chat-box">
+                  <div class="pad-right">
+                    <div class="position-relative">
+                      <img
+                        src="assets/images/profile-1.png"
+                        alt="user profile"
+                      />
+                      <div class="absolute-circle green"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="flex-box">
+                      <h4>Alma Pierce</h4>
+                      <time>8:50 PM</time>
+                    </div>
+                    <div class="receiver-chat">
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <!-- Message Texting Area -->
+              <div class="message-input">
+                <div>
+                  <input type="text" placeholder="Type to add your message" />
+                </div>
+                <div>
+                  <button class="border-none">
+                    <img
+                      src="assets/icons/sentiment_satisfied-icon.png"
+                      alt="emoji-icon"
+                    />
+                  </button>
+                  <button class="border-none">
+                    <img src="assets/icons/add-icon.png" alt="fileAdd-icon" />
+                  </button>
+                  <button class="msgSend-box">
+                    <img src="assets/icons/send-icon.png" alt="msgSend-icon" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="profile-wrap">
+              <header class="flex-between">
+                <button>
+                  <img src="assets/icons/star-icon.png" alt="favrouits icon" />
+                </button>
+                <button>
+                  <img
+                    src="assets/icons/person_add-icon.png"
+                    alt="person_add-icon"
+                  />
+                </button>
+              </header>
+              <section class="designation">
+                <img src="assets/images/profile-pic.png" alt="" />
+                <h2>chester Martin</h2>
+                <p>UI/UX Designer</p>
+              </section>
+              <section class="section-splitter">
+                <h3>Email</h3>
+                <a href="mailto:chester.martin@gmail.com"
+                  >chester.martin@gmail.com</a
+                >
+                <a href="mailto:chester.martin@yahoo.com"
+                  >chester.martin@yahoo.com</a
+                >
+              </section>
+
+              <section class="section-splitter">
+                <h3>Dial</h3>
+                <a href="mailto:chester.martin@gmail.com"
+                  >chester.martin@gmail.com</a
+                >
+              </section>
+
+              <section class="section-splitter">
+                <h3>Meeting</h3>
+                <a href="http://meet.google.com/kde-diq=jgo"
+                  >http://meet.google.com/kde-diq=jgo</a
+                >
+              </section>
+
+              <section class="section-splitter">
+                <h3>Phone</h3>
+                <a href="tel:+1 9876382853">987-638-2653</a><br />
+                <a href="tel:+1 9876382855">987-638-2655</a>
+              </section>
+            </div>
           </div>
-          <section></section>
-          <section></section>
         </div>
-      </main>
-    </div>
+      </div>
+    </main>
   </body>
 </html>
